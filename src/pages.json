@@ -1,0 +1,51 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path":"pages/index/data"
+		},
+		{
+			"path":"pages/index/me"
+		},
+		{
+			"path":"pages/index/info"
+		}
+		,
+		{
+			"path":"pages/another/reg"
+		},
+		{
+			"path":"pages/another/setting"
+		}
+	],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#f7f7f7",
+		"backgroundColor": "#f7f7f7",
+		"navigationStyle":"custom"
+	},
+	"tabBar":{
+		"color": "#000000",
+		"selectedColor": "#000000",
+		"backgroundColor": "#f7f7f7",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath":"static/icon/collect.png"
+			},
+			{
+				"iconPath":"static/icon/data.png",
+				"pagePath": "pages/index/data"
+			},
+			{
+				"pagePath":"pages/index/me",
+				"iconPath":"static/icon/me.png"
+			}
+		]
+	}
+}
